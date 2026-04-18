@@ -8,7 +8,7 @@ spec:
   source:
     # 1. Point this to YOUR new GitHub URL!
     repoURL: 'https://github.com/himanshuvb/gitops-tool.git'
-    targetRevision: HEAD
+    targetRevision: main
     # 2. We put the YAML in the root of the folder, so we use a dot
     path: '.'
   destination:
