@@ -10,7 +10,7 @@ spec:
     repoURL: 'https://github.com/himanshuvb/gitops-tool.git'
     targetRevision: main
     # 2. We put the YAML in the root of the folder, so we use a dot
-    path: '.'
+    path: '/tree/main'
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: default
